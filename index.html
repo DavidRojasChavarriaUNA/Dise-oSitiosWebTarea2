@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Tarea 2 David Rojas Chavarria</title>
+  <meta name="author" content="David Rojas Chavarria" />
+  <meta name="description" content="Tarea 2 - Diseño de sitios web" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--CSS del framework minimizado-->
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <!--CSS personalizado del sitio-->
+  <link rel="stylesheet" href="css/Site.css" />
+  <!--Javascript del framework minimizado-->
+  <script src="js/uikit.min.js"></script>
+  <!--Javascript del framework para iconos-->
+  <script src="js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <header>
+        <!--para ingresar el logo y centrarlo usando los grids y centrando su contenido-->
+        <div uk-grid class="uk-grid-collapse uk-text-center paddingsuperiorHeader marginInferiorHeader">
+            <div class="uk-width-expand"></div>
+            <div class="uk-width-auto">
+                <img id="imgLogo" src="img/Icono.PNG" alt="logo" />
+            </div>
+            <div class="uk-width-expand"></div>
+        </div>
+        <!--menu, se asigna el contenedor con fondo transparente-->
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <!--menu a la izquierda-->
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav red-on-hover">
+                    <li class="uk-parent"><a class="text-white" href="#">Books</a></li>
+                    <li class="uk-parent"><a class="text-white" href="#">Writers</a></li>
+                    <li class="uk-parent"><a class="text-white" href="#">News & Views</a></li>
+                    <li class="uk-parent"><a class="text-white" href="#">Subscribe</a></li>
+                </ul>
+            </div>
+            <!--menu al centro-->
+            <div class="uk-navbar-center">
+                <!--se agrega el logo-->
+                <a class="uk-navbar-item uk-logo text-white" href="#">Library of America</a>
+            </div>
+            <!--menu a la derecha-->
+            <div class="uk-navbar-right red-on-hover">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-parent"><a class="text-white" href="#">Join</a></li>
+                    <li class="uk-parent"><a class="text-white" href="#">Support</a></li>
+                    <li class="uk-parent"><a class="text-white" href="#">About</a></li>
+                    <li class="uk-parent"><a class="text-white" href="#">Sign In</a></li>
+                    <!--Iconos de carro y buscar-->
+                    <li class="uk-parent"><a class="text-white" href="#" uk-icon="icon: cart" ></a></li>
+                    <li class="uk-parent"><a class="text-white" href="#" uk-icon="icon: search" ></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="AreaTrabajo">
+        <!--Seccion 1-->
+        <section class="marginSuperior">     
+            <!--Se utiliza el grid-->
+            <div class="uk-grid-small" uk-grid>
+                <!--1/5 de ancho-->
+                <div class="uk-width-1-5@m">
+                    <a class="NoDecoration" href="#">
+                        <div class="barra-negra"></div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="img/1.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title texto-rojo">Video</h3>
+                                <p class="MarcarEnRojo">LOA LIVE: Online programs inspired by Library of America publications.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="NoDecoration" href="#">
+                        <div class="barra-negra"></div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="img/3.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title texto-rojo">Video</h3>
+                                <p class="MarcarEnRojo">World War II Memoirs: The Pacific Theater</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="uk-width-3-5@m">
+                    <a class="NoDecoration" href="#">
+                        <div class="barra-negra"></div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="img/2.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title texto-rojo">News</h3>
+                                <h1 class="MarcarEnRojo">Forthcoming: Fall 2022</h1>
+                                <p>As we celebrate our fortieth anniversary year, we offer a look ahead to what’s coming in Fall 2022.</p>
+                                <div class="barra-roja"></div>
+                                <p class="texto-rojo MarcarEnNegro">“The limitless destructiveness of this economy comes about precisely because a corporation is *not* a person.” Our friend Wendell Berry, quoted in an excellent new @NewYorker
+                                    profile:</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!--1/5 de ancho-->
+                <div class="uk-width-1-5@m">
+                    <a class="NoDecoration" href="#">
+                        <div class="barra-negra"></div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="img/4.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title texto-rojo">Story of the Week</h3>
+                                <p class="MarcarEnRojo">Ray Bradbury, “The Tarot Witch”</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="NoDecoration" href="#">
+                        <div class="barra-negra"></div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="img/5.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title texto-rojo">News</h3>
+                                <p class="MarcarEnRojo">News<em>Kurt Vonnegut: Novels 1963–1973</em></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--Seccion 2-->
+        <section class=""> 
+            <div class="barra-negra"></div>
+            <div class="uk-text-center">
+                <h2>NEW & NOTEWORTHY</h2>
+            </div>
+            <!--Se utiliza el grid-->
+            <div class="uk-grid-small" uk-grid>            
+                <!--1/5 de ancho-->
+                <div class="uk-width-1-5@m">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">   
+                            <a class="NoDecoration" href="#">
+                                <img src="img/6.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="uk-card-body">
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-negro MarcarEnRojo">Edward Hirsch: The Heart of American Poetry</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>            
+                <!--1/5 de ancho-->
+                <div class="uk-width-1-5@m">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">   
+                            <a class="NoDecoration" href="#">
+                                <img src="img/7.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="uk-card-body">
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-negro MarcarEnRojo">Ernest Hemingway: The Sun Also Rises (paperback and LOA eBook Classic)</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>            
+                <!--1/5 de ancho-->
+                <div class="uk-width-1-5@m">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">   
+                            <a class="NoDecoration" href="#">
+                                <img src="img/8.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="uk-card-body">
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-negro MarcarEnRojo">World War II Memoirs: The Pacific Theater</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>            
+                <!--1/5 de ancho-->
+                <div class="uk-width-1-5@m">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">   
+                            <a class="NoDecoration" href="#">
+                                <img src="img/9.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="uk-card-body">
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-negro MarcarEnRojo">Molière: The Complete Richard Wilbur Translations (boxed set)</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>            
+                <!--1/5 de ancho-->
+                <div class="uk-width-1-5@m">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">   
+                            <a class="NoDecoration" href="#">
+                                <img src="img/10.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="uk-card-body">
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-negro MarcarEnRojo">W.E.B. Du Bois: Black Reconstruction</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Seccion 3-->
+        <section class=""> 
+            <div class="barra-negra"></div>
+            <div class="uk-text-center">
+                <h2>FEATURED WRITERS</h2>
+            </div>
+            <!--Se utiliza el grid-->
+            <div class="uk-grid-small" uk-grid>            
+                <!--1/4 de ancho-->
+                <div class="uk-width-1-4@m">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">   
+                            <a class="NoDecoration" href="#">
+                                <img src="img/11.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="uk-card-body">
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-negro MarcarEnRojo">F. Scott Fitzgerald</p>
+                            </a>
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-rojo MarcarEnNegro">Learn more</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">   
+                            <a class="NoDecoration" href="#">
+                                <img src="img/12.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="uk-card-body">
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-negro MarcarEnRojo">W.E.B. Du Bois</p>
+                            </a>
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-rojo MarcarEnNegro">Learn more</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>            
+                <!--1/4 de ancho-->
+                <div class="uk-width-1-4@m">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">   
+                            <a class="NoDecoration" href="#">
+                                <img src="img/13.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="uk-card-body">
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-negro MarcarEnRojo">Rachel Carson</p>
+                            </a>
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-rojo MarcarEnNegro">Learn more</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">   
+                            <a class="NoDecoration" href="#">
+                                <img src="img/14.jpg" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="uk-card-body">
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-negro MarcarEnRojo">Ray Bradbury</p>
+                            </a>
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-rojo MarcarEnNegro">Learn more</p>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+                <!--1/2 de ancho-->
+                <div class="uk-width-1-2@m">
+                    <div class="uk-grid-small" uk-grid> 
+                        <!--1/2 de ancho-->
+                        <div class="uk-width-1-2@m">
+                            <img src="img/15.jpg" class="img-responsive">
+                        </div>
+                        <!--1/2 de ancho-->
+                        <div class="uk-width-1-2@m">                 
+                            <a class="NoDecoration" href="#">
+                                <h3 class="texto-rojo">Writer of the Week</h3>
+                            </a>
+                            <a class="NoDecoration" href="#">
+                                <h2 class="texto-negro MarcarEnRojo">Jack Kerouac</h2>
+                                <p class="texto-negro">
+                                    Kerouac’s status as a Beat icon has continued to make him an emblem of romantic rebellion while sometimes obscuring the extent of his literary ambitions and the years of disciplined experiment that went into the creation of what Allen Ginsberg called his “spontaneous bop prosody.”
+                                </p>
+                            </a>
+                            <a class="NoDecoration" href="#">
+                                <p class="texto-rojo MarcarEnNegro">Learn more</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Seccion 4-->
+        <section class=""> 
+            <div class="barra-negra"></div>
+            <div class="uk-text-center">
+                <h2>FEATURED TOPICS</h2>
+            </div>
+            <!--menu, se asigna el contenedor con fondo transparente-->
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <!--menu al centro-->
+                <div class="uk-navbar-center">
+                    <ul class="uk-navbar-nav red-on-hover">
+                    <li class="uk-parent bordesLaterales"><a class="texto-negro MarcarEnRojo texto-grande" href="#">Books for Young Readers</a></li>
+                    <li class="uk-parent bordesLaterales"><a class="texto-negro MarcarEnRojo texto-grande" href="#">The Founders</a></li>
+                    <li class="uk-parent bordesLaterales"><a class="texto-negro MarcarEnRojo texto-grande" href="#">Hollywood</a></li>
+                </ul>
+                </div>
+            </nav>
+        </section> 
+        <!--Seccion 5-->
+        <section class="" style="margin-top: 30px;"> 
+            <div class="barra-negra"></div>
+            <!--para ingresar el logo y centrarlo usando los grids y centrando su contenido-->
+            <div uk-grid class="uk-grid-collapse uk-text-center paddingsuperiorHeader marginInferiorHeader">
+                <div class="uk-width-expand"></div>
+                <div class="uk-width-auto">
+                    <img id="imgLogo" src="img/Icono2.PNG" alt="logo" />
+                </div>
+                <div class="uk-width-expand"></div>
+            </div>
+            <div class="uk-text-center">
+                <h2>Library of America</h2>
+            </div>
+            <!--Se utiliza el grid-->
+            <div class="uk-grid-small" uk-grid>            
+                <!--1/3 de ancho-->
+                <div class="uk-width-1-3@m">  
+                    <p class="texto-rojo">CURATOR</p>
+                    <p class="texto-negro">
+                        A champion of America’s great writers and timeless works, Library of America guides readers in finding and exploring the exceptional writing that reflects the nation’s history and culture.
+                    </p>
+                    <a class="NoDecoration" href="#">
+                        <p class="texto-negro MarcarEnRojo">Learn more</p>
+                    </a>
+                </div> 
+                <div class="uk-width-1-3@m">
+                    <p class="texto-rojo">PUBLISHER</p>
+                    <p class="texto-negro">
+                        From poetry, novels, and memoirs to journalism, crime writing, and science fiction, the more than 300 volumes published by Library of America are widely recognized as America’s literary canon.
+                    </p>
+                    <a class="NoDecoration" href="#">
+                        <p class="texto-negro MarcarEnRojo">Browse our books</p>
+                        <p class="texto-negro MarcarEnRojo">Subscribe</p>
+                    </a>
+                </div> 
+                <div class="uk-width-1-3@m">
+                    <p class="texto-rojo">NON-PROFIT</p>
+                    <p class="texto-negro">
+                        With contributions from donors, Library of America preserves and celebrates a vital part of our cultural heritage for generations to come.
+                    </p>
+                    <a class="NoDecoration" href="#">
+                        <p class="texto-negro MarcarEnRojo">Support our mission</p>
+                    </a>
+                </div> 
+            </div>
+        </section> 
+    </div>
+    <footer></footer>
+</body> 
+</html>

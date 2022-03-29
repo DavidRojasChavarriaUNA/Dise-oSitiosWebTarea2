@@ -1,0 +1,74 @@
+header{
+    background-color: #000000;
+    min-height: 150px;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+    margin-bottom: 100px;
+}
+
+.text-white{
+    color: #ffffff !important;
+}
+
+.red-on-hover .uk-parent:hover>a, .texto-rojo, .MarcarEnRojo:hover {
+    color: red !important;
+}
+
+.texto-negro, .MarcarEnNegro:hover {
+    color: #000000 !important;
+}
+
+.paddingsuperiorHeader{
+    padding-top: 25px;
+}
+
+.marginInferiorHeader{
+    margin-bottom: -15px;
+}
+
+#imgLogo{
+    width: 50%;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.NoDecoration, .NoDecoration:hover{
+    text-decoration: none;
+}
+
+.barra-negra, .barra-roja{
+    min-height: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.barra-negra{
+    background-color: #000000;
+}
+
+.barra-roja{
+    background-color: red;
+}
+
+.marginSuperior{
+    margin-top: 210px;
+}
+
+.AreaTrabajo{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.texto-grande{
+    font-size: larger !important;
+    min-height: auto !important;
+}
+
+.bordesLaterales{
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
